@@ -3,25 +3,23 @@ body {
 }
 
 .main {
-    /* color: #588157; */
     margin: 17vh 30vw;
     font-weight: 500;
-    /* -webkit-text-stroke: 0.1px #FFF; */
 }
 
 .lable_main {
     display: flex;
     justify-content: center;
-    /* color: #588157; */
     font-size: 50px;
     padding-bottom: 4px;
 }
 
-form {
+fieldset {
     border-radius: 30px;
     padding: 20px 30px;
     font-size: 21px;
     background-color: #a2d2ff;
+    border: 0;
 }
 
 .forCheck {
@@ -29,10 +27,6 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-/* .options {
-    padding: 10px 0;
-} */
 
 .newLable {
     padding: 5px 0;
@@ -42,16 +36,16 @@ form {
 .btn {
     display: flex;
     justify-content: center;
-    padding: 22px 0 0px;
+    padding: 22px 0 0;
 }
 
 .btn input{
-    border: 1px;
-    /* color: #588157; */
-    background-color: #B5E2FA;
+    border: 0;
+    background-color: #79beff;
     margin: 0 20px;
     padding: 7px 10px;
     border-radius: 12px;
+    font-size: large;
 }
 
 .area input{
