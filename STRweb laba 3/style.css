@@ -1,0 +1,59 @@
+body {
+    background-color: #bde0fe;
+}
+
+.main {
+    /* color: #588157; */
+    margin: 17vh 30vw;
+    font-weight: 500;
+    /* -webkit-text-stroke: 0.1px #FFF; */
+}
+
+.lable_main {
+    display: flex;
+    justify-content: center;
+    /* color: #588157; */
+    font-size: 50px;
+    padding-bottom: 4px;
+}
+
+form {
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 21px;
+    background-color: #a2d2ff;
+}
+
+.forCheck {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .options {
+    padding: 10px 0;
+} */
+
+.newLable {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 0px;
+}
+
+.btn input{
+    border: 1px;
+    /* color: #588157; */
+    background-color: #B5E2FA;
+    margin: 0 20px;
+    padding: 7px 10px;
+    border-radius: 12px;
+}
+
+.area input{
+    width: 100%;
+}
